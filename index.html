@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="refresh" content="10">
+  <link rel="stylesheet" href="style.css">
+  <title>Weather</title>
+</head>
+
+<body>
+  <!-- <div class="container"> -->
+  <div class="weather">
+    <h1 class="header">Weather Forecast</h1>
+    <h3 class="update">Loading Data</h3>
+    <div class="cards">
+      <div class="card">
+       <strong><div class="city">Delhi</div></strong> 
+        <div class="sunny">
+          <img id="delhiimg" src="" alt="">
+        </div>
+        <div class="temp">
+          <strong><span class="deg" id="delhicond">Loading Data...</span></strong>
+        </div>
+        <div class="temp">
+        <span class="deg" id="delhitemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="delhifeelslike">Feels like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="delhihumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="delhiwind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="delhitempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="delhitempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <strong><div class="city">Mumbai</div></strong>
+        <div class="sunny">
+          <img id="mumbaiimg" src="" alt="">
+        </div>
+        <div class="temp">
+         <strong><span class="deg" id="mumbaicond">Loading Data...</span></strong> 
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaitemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaifeelslike">Feels like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaihumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaiwind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaitempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="mumbaitempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <strong><div class="city">Chennai</div></strong>
+        <div class="sunny">
+          <img id="chennaiimg" src="" alt="">
+        </div>
+        <div class="temp">
+          <strong><span class="deg" id="chennaicond">Loading Data...</span></strong>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaitemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaifeelslike">Feels Like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaihumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaiwind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaitempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="chennaitempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <strong><div class="city">Bengaluru</div></strong>
+        <div class="sunny">
+          <img id="bengaluruimg" src="" alt="">
+        </div>
+
+        <div class="temp">
+         <strong><span class="deg" id="bengalurucond">Loading Data...</span></strong> 
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengalurutemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengalurufeelslike">Feels like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengaluruhumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengaluruwind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengalurutempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="bengalurutempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+      <div class="card">
+        <strong><div class="city">Kolkata</div></strong>
+        <div class="sunny">
+          <img id="kolkataimg" src="" alt="">
+        </div>
+        <div class="temp">
+          <strong><span class="deg" id="kolkatacond">Loading Data...</span></strong>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatatemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatafeelslike">Feels like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatahumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatawind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatatempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="kolkatatempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+
+      <div class="card">
+        <strong><div class="city">Hyderabad</div></strong>
+        <div class="sunny">
+          <img id="hyderabadimg" src="" alt="">
+        </div>
+        <div class="temp">
+          <strong><span class="deg" id="hyderabadcond">Loading Data ...</span></strong>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadtemp">Temp: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadfeelslike">Feels like: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadhumidity">Humidity: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadwind">Wind: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadtempmin">Temp. Min.: Loading Data...</span>
+        </div>
+        <div class="temp">
+          <span class="deg" id="hyderabadtempmax">Temp. Max.: Loading Data...</span>
+        </div>
+      </div>
+
+
+    </div>
+
+  </div>
+  <!-- </div> -->
+  <script src="script.js"></script>
+</body>
+
+</html>
