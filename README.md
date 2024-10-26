@@ -1,6 +1,3 @@
-Here’s the updated README with your name and a “made with love” note:
-
----
 
 # Weather App
 
